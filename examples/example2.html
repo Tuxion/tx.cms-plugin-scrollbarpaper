@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Author" content="HENRI MEDOT ABSYX" />
+<title>jQuery Scrollbar Paper Example 2</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="../jquery.scrollbarpaper.min.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="../jquery.scrollbarpaper.css" />
+<style type="text/css">
+#body-inner
+{
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#container
+{
+  margin: 50px auto;
+  width: 600px;
+  height: 400px;
+  overflow: auto;
+  background-color: #f00;
+}
+
+#content
+{
+  padding: 10px;
+  background-color: #ff0;
+}
+
+#content p
+{
+  background-color: #dd0;
+}
+
+div.scrollbarpaper-container
+{
+  background-color: #ff0;
+}
+
+div.scrollbarpaper-track
+{
+  width: 10px;
+  background-color: #00f;
+}
+
+div.scrollbarpaper-drag
+{
+  background-color: #99f;
+}
+
+div.scrollbarpaper-drag-top
+{
+}
+
+div.scrollbarpaper-drag-bottom
+{
+}
+
+#content.scrollbarpaper-visible
+{
+  padding-right: 33px;
+}
+</style>
+<script type="text/javascript">
+$(function() {
+  $('#container').scrollbarPaper();
+});
+</script>
+</head>
+<body><div id="body-inner">
+<p>
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor elit in sem vehicula malesuada. Mauris aliquam, orci ac euismod tempor, est felis congue tortor, non vestibulum lacus ante nec turpis. Fusce vitae odio vitae nibh tincidunt cursus et eu ipsum. Maecenas posuere, enim mollis commodo viverra, elit nibh tincidunt sapien, vitae tincidunt nisi nibh sed enim. In iaculis, mi et eleifend lacinia, lectus arcu posuere erat, ac mattis magna sem nec justo. Donec malesuada mattis vestibulum. Vivamus porta erat a massa dignissim tempus eget quis orci. Vivamus eget elementum ligula. Sed elementum sem urna, non viverra ligula. Suspendisse eu urna a mauris scelerisque suscipit. Donec gravida, tortor quis tincidunt tincidunt, est diam vehicula neque, eget hendrerit sapien sem ut nulla. Morbi tristique sollicitudin justo, a luctus diam suscipit at. Vivamus ac mauris eget ipsum posuere euismod in vel eros.
+</p>
+
+<div id="container"><div id="content">
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae bibendum neque. Cras facilisis faucibus sodales. Nam libero turpis, egestas in consequat non, rutrum posuere neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras eleifend, leo nec tempus adipiscing, dolor sem iaculis urna, sit amet luctus mauris justo ac felis. Sed sed sem ipsum, id mattis massa. Integer tellus justo, dictum sed venenatis et, varius eget dolor. Vivamus egestas lorem quis augue faucibus commodo. Integer non ultricies nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Suspendisse hendrerit ultrices porta. Pellentesque vestibulum leo eget mauris cursus euismod. Ut placerat, elit ac vulputate commodo, sem dolor viverra velit, ut tincidunt arcu odio in purus. Curabitur in urna eros, sit amet tempor leo. In in luctus nulla. Vestibulum interdum leo suscipit tortor euismod feugiat.
+</p><p>
+Vivamus ullamcorper, magna vulputate dignissim fermentum, dolor orci ultrices dolor, in eleifend turpis nunc vitae nisl. Vivamus venenatis aliquam tortor, ac elementum elit dapibus in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin at libero vel metus tristique luctus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut tristique tristique augue eget dignissim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed commodo convallis dolor, quis sodales nibh mattis eu. Vivamus rhoncus adipiscing velit at adipiscing. Aenean lobortis pulvinar iaculis. Curabitur ac libero sapien, et ultricies risus. Etiam dignissim justo in enim feugiat in cursus justo iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique tempor nibh, a lobortis mi sollicitudin sit amet. Nunc vitae lectus a dolor tincidunt rhoncus sit amet quis eros. Etiam in odio vel arcu ultrices laoreet quis id nisi. Duis in nisi nunc, ut convallis risus. Nullam sapien dui, aliquet vitae congue a, lobortis eu ligula.
+</p><p>
+<a href="http://www.google.fr">Google 1</a><br />
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor elit in sem vehicula malesuada. Mauris aliquam, orci ac euismod tempor, est felis congue tortor, non vestibulum lacus ante nec turpis. Fusce vitae odio vitae nibh tincidunt cursus et eu ipsum. Maecenas posuere, enim mollis commodo viverra, elit nibh tincidunt sapien, vitae tincidunt nisi nibh sed enim. In iaculis, mi et eleifend lacinia, lectus arcu posuere erat, ac mattis magna sem nec justo. Donec malesuada mattis vestibulum. Vivamus porta erat a massa dignissim tempus eget quis orci. Vivamus eget elementum ligula. Sed elementum sem urna, non viverra ligula. Suspendisse eu urna a mauris scelerisque suscipit. Donec gravida, tortor quis tincidunt tincidunt, est diam vehicula neque, eget hendrerit sapien sem ut nulla. Morbi tristique sollicitudin justo, a luctus diam suscipit at. Vivamus ac mauris eget ipsum posuere euismod in vel eros.
+</p><p>
+<a href="http://www.google.fr">Google 2</a><br />
+Duis sagittis eros ac lectus luctus lacinia. Nullam et libero tellus. Donec condimentum, magna hendrerit molestie eleifend, erat arcu feugiat diam, sit amet vulputate neque diam ac felis. Nam in felis in nisl pulvinar tincidunt. In hac habitasse platea dictumst. Nam molestie venenatis euismod. Nulla bibendum risus at nisi egestas elementum accumsan mauris blandit. Aenean sed quam sem, ac ultrices risus. Mauris malesuada fringilla leo, sagittis feugiat est tempor quis. Fusce nunc justo, rutrum at congue vel, malesuada ut sapien. Pellentesque dignissim volutpat laoreet. Aenean libero eros, porttitor eu accumsan sed, blandit vel massa. Integer sagittis leo et urna egestas pretium. Nunc egestas sagittis porta. Nulla sollicitudin, turpis at euismod volutpat, tellus diam dignissim mi, non consectetur nibh nunc at tortor. Proin euismod, tellus luctus pulvinar consectetur, purus ligula euismod sem, tempus molestie sapien libero sit amet odio. Nulla facilisi. Duis at urna velit. Mauris ut orci eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+</p><p>
+<a href="http://www.google.fr">Google 2</a><br />
+Fusce lorem urna, consequat elementum aliquet eget, dapibus non ante. Vestibulum vestibulum pellentesque odio. Morbi pulvinar pharetra lectus quis laoreet. Vivamus vestibulum lobortis dolor, in laoreet magna porta id. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec eu velit et nisl accumsan pharetra ut nec libero. Donec pellentesque, mi at cursus fringilla, tellus purus lobortis mauris, vehicula rhoncus risus magna in leo. Morbi vitae tellus viverra enim egestas ornare ac placerat purus. Vestibulum ornare porttitor lobortis. Nunc a nunc sed nulla hendrerit blandit. Nam sit amet venenatis magna. Sed eu diam turpis. Fusce venenatis ligula nec tortor elementum euismod.
+</p>
+</div></div>
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae bibendum neque. Cras facilisis faucibus sodales. Nam libero turpis, egestas in consequat non, rutrum posuere neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras eleifend, leo nec tempus adipiscing, dolor sem iaculis urna, sit amet luctus mauris justo ac felis. Sed sed sem ipsum, id mattis massa. Integer tellus justo, dictum sed venenatis et, varius eget dolor. Vivamus egestas lorem quis augue faucibus commodo. Integer non ultricies nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Suspendisse hendrerit ultrices porta. Pellentesque vestibulum leo eget mauris cursus euismod. Ut placerat, elit ac vulputate commodo, sem dolor viverra velit, ut tincidunt arcu odio in purus. Curabitur in urna eros, sit amet tempor leo. In in luctus nulla. Vestibulum interdum leo suscipit tortor euismod feugiat.
+</p>
+</div></body>
+</html>
